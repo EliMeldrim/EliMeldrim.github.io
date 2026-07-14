@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glowMB" cx="25%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#042f2e"/>
+      <stop offset="55%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glowMB)"/>
+
+  <!-- Week calendar card -->
+  <g fill="none" stroke="#3a4356" stroke-width="2">
+    <rect x="120" y="70" width="330" height="180" rx="12"/>
+    <line x1="120" y1="108" x2="450" y2="108"/>
+    <line x1="186" y1="108" x2="186" y2="250"/>
+    <line x1="252" y1="108" x2="252" y2="250"/>
+    <line x1="318" y1="108" x2="318" y2="250"/>
+    <line x1="384" y1="108" x2="384" y2="250"/>
+  </g>
+  <g font-family="Poppins, Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">
+    <text x="153" y="95">Mon</text>
+    <text x="219" y="95">Tue</text>
+    <text x="285" y="95">Wed</text>
+    <text x="351" y="95">Thu</text>
+    <text x="417" y="95">Fri</text>
+  </g>
+  <!-- Booked appointment blocks -->
+  <g rx="4">
+    <rect x="128" y="118" width="50" height="26" rx="5" fill="#2dd4bf" opacity="0.85"/>
+    <rect x="128" y="150" width="50" height="26" rx="5" fill="#2dd4bf" opacity="0.45"/>
+    <rect x="194" y="134" width="50" height="40" rx="5" fill="#2dd4bf" opacity="0.65"/>
+    <rect x="260" y="118" width="50" height="26" rx="5" fill="#2dd4bf" opacity="0.5"/>
+    <rect x="260" y="182" width="50" height="26" rx="5" fill="#2dd4bf" opacity="0.85"/>
+    <rect x="326" y="150" width="50" height="40" rx="5" fill="#2dd4bf" opacity="0.6"/>
+    <rect x="392" y="118" width="50" height="26" rx="5" fill="#2dd4bf" opacity="0.75"/>
+  </g>
+  <!-- Conflict block: rejected double-booking -->
+  <g>
+    <rect x="392" y="150" width="50" height="26" rx="5" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="5 4"/>
+    <path d="M409 156 l16 14 M425 156 l-16 14" stroke="#f87171" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Clock with stethoscope hint -->
+  <g transform="translate(560,110)">
+    <circle cx="60" cy="60" r="58" fill="#1f2430" stroke="#3a4356" stroke-width="2"/>
+    <circle cx="60" cy="60" r="4" fill="#2dd4bf"/>
+    <path d="M60 60 L60 26" stroke="#2dd4bf" stroke-width="4" stroke-linecap="round"/>
+    <path d="M60 60 L86 74" stroke="#e2e8f0" stroke-width="4" stroke-linecap="round"/>
+    <g stroke="#94a3b8" stroke-width="2">
+      <line x1="60" y1="8" x2="60" y2="16"/>
+      <line x1="60" y1="104" x2="60" y2="112"/>
+      <line x1="8" y1="60" x2="16" y2="60"/>
+      <line x1="104" y1="60" x2="112" y2="60"/>
+    </g>
+    <!-- Stethoscope draped below -->
+    <path d="M18 96 q-14 26 8 38 q20 12 38 -2" fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="68" cy="128" r="7" fill="none" stroke="#2dd4bf" stroke-width="3" opacity="0.8"/>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">MedBook</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#5eead4">EVERY SLOT ACCOUNTED FOR</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Clinic scheduling with conflict-proof booking &#8212; ASP.NET Core MVC &amp; EF Core</text>
+</svg>
