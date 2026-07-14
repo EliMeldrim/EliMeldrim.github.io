@@ -99,15 +99,23 @@
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project Details</h3>
               <ul>
-                <li><strong>Category</strong>: Console application</li>
-                <li><strong>Project date</strong>: March 20, 2023</li>
-                <li><strong>Langauges</strong>: Git, Docker, ASP.NET, C#, HTML, CSS, Javascript, Bootstrap, MYSQL</li>
+                <li><strong>Category</strong>: Full-stack web application &mdash; generative AI</li>
+                <li><strong>Timeline</strong>: 2023 concept &middot; rebuilt 2026</li>
+                <li><strong>Stack</strong>: ASP.NET Core 8 MVC, C#, EF Core (SQLite / MySQL), ASP.NET Identity, OpenAI (chat + vision), Bootstrap, MSTest</li>
+                <li><strong>Source</strong>: <a href="https://github.com/EliMeldrim/RecipeChecker" target="_blank">GitHub &mdash; RecipeChecker</a></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>About</h2>
               <p>
-                This personal project was designed to help manage ingredients and recipes more efficiently. It allowed me to input the food items I currently had, and then input the recipe I wanted to make. The system would analyze the ingredients and determine whether I could make the recipe with what I had, if I might need more of certain ingredients, or if I was missing a specific ingredient altogether. This tool made meal planning easier by helping me quickly assess what I could cook based on my available ingredients, while also providing suggestions for grocery shopping.              </p>
+                Recipe Checker started as a simple 2023 project that compared a recipe's ingredient list against what I had on hand. In 2026 I rebuilt it from scratch as a full multi-user product with a layered architecture (domain / infrastructure / service / UI).
+              </p>
+              <p>
+                Households are first-class: create one, share an invite code, and every member works from the same live pantry and recipe box. Recipes can be private to the household or published publicly. An AI kitchen assistant knows your pantry and your recipes &mdash; ask "what can I make tonight?" and it suggests dishes you can actually cook, with one click through to the steps. Cook a recipe at &frac12;&times;, 1&times;, 2&times;, or 3&times; and the scaled ingredients are deducted from the pantry automatically, with any shortfalls flagged.
+              </p>
+              <p>
+                There's also a photo importer: snap your groceries and OpenAI vision identifies the items and quantities, which you review before they're merged into the pantry. The service layer &mdash; inventory merge and deduction math, batch scaling, recipe visibility rules, household membership &mdash; is covered by an MSTest suite.
+              </p>
             </div>
           
 
