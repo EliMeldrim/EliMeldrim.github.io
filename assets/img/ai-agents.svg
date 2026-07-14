@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glow9" cx="50%" cy="15%" r="95%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="55%" stop-color="#0b1418"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glow9)"/>
+  <g fill="none" stroke="#2dd4bf" stroke-width="2.5">
+    <rect x="185" y="85" width="90" height="70" rx="14"/>
+    <circle cx="212" cy="115" r="6" fill="#2dd4bf"/>
+    <circle cx="248" cy="115" r="6" fill="#2dd4bf"/>
+    <path d="M215 138 q15 10 30 0"/>
+    <path d="M230 85 v-16 m0 0 a5 5 0 1 1 0.1 0"/>
+  </g>
+  <g fill="none" stroke="#a78bfa" stroke-width="2.5">
+    <rect x="525" y="85" width="90" height="70" rx="14"/>
+    <circle cx="552" cy="115" r="6" fill="#a78bfa"/>
+    <circle cx="588" cy="115" r="6" fill="#a78bfa"/>
+    <path d="M555 138 q15 10 30 0"/>
+    <path d="M570 85 v-16 m0 0 a5 5 0 1 1 0.1 0"/>
+  </g>
+  <g>
+    <rect x="300" y="95" width="200" height="30" rx="15" fill="#101827" stroke="#334155" stroke-width="1.5"/>
+    <text x="400" y="115" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#94a3b8">daily briefing sent ✓</text>
+    <rect x="300" y="140" width="200" height="30" rx="15" fill="#101827" stroke="#334155" stroke-width="1.5"/>
+    <text x="400" y="160" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#94a3b8">sprint #14 complete ✓</text>
+  </g>
+  <text x="230" y="200" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="15" letter-spacing="1" fill="#5eead4">OPENCLAW</text>
+  <text x="570" y="200" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="15" letter-spacing="1" fill="#c4b5fd">HERMES</text>
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Self-Hosted AI Agents</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#86efac">ALWAYS-ON PERSONAL AI OPERATIONS</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">OpenClaw + Hermes &#8212; daily briefings, autonomous sprints, delegated tasks</text>
+</svg>
