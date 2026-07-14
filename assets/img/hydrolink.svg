@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glow8" cx="50%" cy="20%" r="95%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="55%" stop-color="#0a1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glow8)"/>
+  <g transform="translate(170,90)">
+    <path d="M40 0 q40 52 40 78 a40 40 0 1 1 -80 0 q0 -26 40 -78" fill="none" stroke="url(#water)" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M22 84 a18 18 0 0 0 14 20" fill="none" stroke="#7dd3fc" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round">
+    <path d="M300 150 h150" stroke-dasharray="2 14"/>
+    <path d="M436 141 l16 9 -16 9" fill="none"/>
+  </g>
+  <g transform="translate(490,105)">
+    <rect x="0" y="0" width="130" height="90" rx="12" fill="#101827" stroke="#38bdf8" stroke-width="2"/>
+    <ellipse cx="65" cy="24" rx="38" ry="10" fill="none" stroke="#7dd3fc" stroke-width="2.5"/>
+    <path d="M27 24 v42 a38 10 0 0 0 76 0 v-42" fill="none" stroke="#7dd3fc" stroke-width="2.5"/>
+    <path d="M27 45 a38 10 0 0 0 76 0" fill="none" stroke="#7dd3fc" stroke-width="2.5"/>
+  </g>
+  <text x="300" y="128" font-family="Poppins, Arial, sans-serif" font-size="14" letter-spacing="1" fill="#7dd3fc">DEQ EDAS</text>
+  <text x="620" y="228" text-anchor="end" font-family="Poppins, Arial, sans-serif" font-size="14" letter-spacing="1" fill="#7dd3fc">EPA WQX</text>
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="60" font-weight="700" fill="#ffffff">Hydrolink</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#7dd3fc">AUTOMATED WATER-QUALITY DATA TRANSFER</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Idaho DEQ &#8594; EPA WQX API &#8212; ASP.NET senior capstone</text>
+</svg>
