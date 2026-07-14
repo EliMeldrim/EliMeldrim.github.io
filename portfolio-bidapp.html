@@ -94,8 +94,33 @@
 
         <div class="row gy-4">
 
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-          
+              <script type="application/json" class="swiper-config">
+                {
+                  "speed": 600,
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/bidapp/bidapp-1-calculator.jpg" alt="BidApplication cost calculator with labor, materials, and extras totalled">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project Details</h3>
               <ul>
@@ -105,6 +130,9 @@
                 <li><strong>Source</strong>: <a href="https://github.com/EliMeldrim/BidApplication" target="_blank">BidApplication (C#)</a> &middot; <a href="https://github.com/EliMeldrim/BidApplicationAWS" target="_blank">BidApplicationAWS (JavaScript)</a></li>
               </ul>
             </div>
+          </div>
+
+          <div class="col-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>About</h2>
               <p>
@@ -117,7 +145,7 @@
                 Building the same features in both worlds &mdash; data access, file handling, API design, environment setup &mdash; sharpened my sense of the trade-offs between the two ecosystems and made me faster in each of them.
               </p>
             </div>
-          
+          </div>
 
         </div>
 

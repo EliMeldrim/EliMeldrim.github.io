@@ -94,8 +94,45 @@
 
         <div class="row gy-4">
 
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-          
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/recipechecker/recipechecker-1-home.jpg" alt="Recipe Checker household dashboard with pantry summary and cookable recipes">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/recipechecker/recipechecker-2-inventory.jpg" alt="Recipe Checker pantry with editable ingredient quantities">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/recipechecker/recipechecker-3-recipes.jpg" alt="Recipe Checker recipe box showing which dishes can be made right now">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project Details</h3>
               <ul>
@@ -105,6 +142,9 @@
                 <li><strong>Source</strong>: <a href="https://github.com/EliMeldrim/RecipeChecker" target="_blank">GitHub &mdash; RecipeChecker</a></li>
               </ul>
             </div>
+          </div>
+
+          <div class="col-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>About</h2>
               <p>
@@ -117,7 +157,7 @@
                 There's also a photo importer: snap your groceries and OpenAI vision identifies the items and quantities, which you review before they're merged into the pantry. The service layer &mdash; inventory merge and deduction math, batch scaling, recipe visibility rules, household membership &mdash; is covered by an MSTest suite.
               </p>
             </div>
-          
+          </div>
 
         </div>
 

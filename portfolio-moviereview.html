@@ -94,8 +94,41 @@
 
         <div class="row gy-4">
 
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper phone-shots">
 
-          
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/movierater/movierater-1-movies.jpg" alt="MovieRater movie carousel with poster art and thumbs up/down rating">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/movierater/movierater-2-profile.jpg" alt="MovieRater user profile screen">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project Details</h3>
               <ul>
@@ -105,13 +138,16 @@
                 <li><strong>Source</strong>: <a href="https://github.com/EliMeldrim/MovieRaterProject402Final" target="_blank">GitHub — MovieRaterProject402Final</a></li>
               </ul>
             </div>
+          </div>
+
+          <div class="col-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>About</h2>
               <p>
                 This was a group project that utilized React Native to develop a concept app. The app featured static user profiles where users could search for friends, add reviews, and share movie recommendations. Users could also earn badges based on their activity within the app, encouraging engagement and interaction. We integrated the Open OMDb API to fetch movie posters and data, providing users with rich, up-to-date content. This project allowed us to explore mobile app development, API integration, and user experience design, all while building a fun and interactive platform for movie enthusiasts.
               </p>
             </div>
-          
+          </div>
 
         </div>
 

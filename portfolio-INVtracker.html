@@ -94,8 +94,45 @@
 
         <div class="row gy-4">
 
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
 
-          
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/invtracker/invtracker-1-inventory.jpg" alt="CandleINVTracker inventory with searchable, categorized supplies">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/invtracker/invtracker-2-recipes.jpg" alt="CandleINVTracker candle recipes list">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/screenshots/invtracker/invtracker-3-sales.jpg" alt="CandleINVTracker sales ledger by item and venue">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project Details</h3>
               <ul>
@@ -105,12 +142,15 @@
                 <li><strong>Source</strong>: <a href="https://github.com/EliMeldrim/CandleINVTracker" target="_blank">GitHub — CandleINVTracker</a></li>
               </ul>
             </div>
+          </div>
+
+          <div class="col-12">
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>About</h2>
               <p>
                 This is a personal project built on an ASP.NET server using a home SQL server, designed as a DIY tracker. It allows users to manage items, locations, sales, expenses, recipes, testing, and categories. I am currently enhancing the project by adding features like batch crafting, which will enable users to combine multiple items into a single product, and a barcode scanning feature to simplify updating item counts.              </p>
             </div>
-          
+          </div>
 
         </div>
 

@@ -119,6 +119,17 @@
 }
 
 /*--------------------------------------------------------------
+# Portfolio detail screenshot sliders
+--------------------------------------------------------------*/
+/* Phone-app screenshots: cap height instead of full-bleed width */
+.portfolio-details .portfolio-details-slider.phone-shots img {
+  width: auto;
+  max-height: 620px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 .footer .copyright {
