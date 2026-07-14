@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Personal Bootstrap Template</title>
+  <title>muskbox - Elijah Meldrim</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/custom.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Personal
@@ -44,7 +45,7 @@
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Personal</h1>
+        <h1 class="sitename">Elijah Meldrim</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -54,6 +55,7 @@
           <li><a href="resume.html">Resume</a></li>
           
           <li><a href="portfolio.html">Portfolio</a></li>
+
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -70,8 +72,7 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Room Availability
-              </h1>
+              <h1>muskbox</h1>
             </div>
           </div>
         </div>
@@ -80,7 +81,7 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Room Availability</li>
+            <li class="current">muskbox</li>
           </ol>
         </div>
       </nav>
@@ -98,15 +99,23 @@
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
               <h3>Project Details</h3>
               <ul>
-                <li><strong>Category</strong>: Console application</li>
-                <li><strong>Project date</strong>: Jun 10, 2021</li>
-                <li><strong>Langauges</strong>: Java</li>
+                <li><strong>Category</strong>: AI infrastructure &mdash; real-time media streaming</li>
+                <li><strong>Timeline</strong>: 2026 &ndash; Present</li>
+                <li><strong>Stack</strong>: Python, PyTorch / CUDA GPU inference, MuseTalk &amp; DH_live talking-head renderers, F5-TTS &amp; CosyVoice speech synthesis, Docker, streaming HTTP services</li>
+                <li><strong>Source</strong>: Private repository &mdash; available on request</li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
               <h2>About</h2>
               <p>
-                This was a personal project I created to assist with organizing a family gathering. It allowed me to input a file of names and then another file specifying who each person could, couldn't, or must share a room with. The program also prompted for the number of rooms available. Since all the rooms in my house had the same capacity, specifying individual room requirements wasn't necessary. However, this tool helped generate an optimal sleeping arrangement for family members, making it easier to plan and accommodate everyone’s preferences. It was a practical solution for a real-life scenario.              </p>
+                muskbox is a self-hosted, real-time talking-head avatar stack: give it text, and it streams back lip-synced avatar video with natural speech. I built it to replace a third-party avatar SaaS with an in-house alternative that is cheaper to run, fully controllable, and deployable on our own GPU cloud infrastructure.
+              </p>
+              <p>
+                Under the hood it orchestrates four independent AI engines behind a single streaming API: two talking-head renderers (MuseTalk and DH_live) and two text-to-speech engines (F5-TTS and CosyVoice). Each upstream project pins an incompatible PyTorch / CUDA combination, so every engine runs in its own isolated environment as a separate HTTP service &mdash; the main streaming server coordinates them and serves the composited result in real time.
+              </p>
+              <p>
+                The stack is packaged with Docker for GPU cloud deployment, with reproducible from-scratch environment rebuilds documented for every engine. It now powers avatar rendering experiments for the SILOMed medical simulation platform.
+              </p>
             </div>
           
 
@@ -120,14 +129,14 @@
 
   <footer id="footer" class="footer dark-background">
     <div class="container">
-      <h3 class="sitename">Personal</h3>
+      <h3 class="sitename">Elijah Meldrim</h3>
       <div class="social-links d-flex justify-content-center">
         <a href="https://github.com/EliMeldrim"><i class="bi bi-github" target="_blank"></i></a>
         <a href="https://www.Linkedin.com/in/elijah-meldrim-988642248/" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Personal</strong> <span>All Rights Reserved</span>
+          <span>&copy;</span> <strong class="px-1 sitename">Elijah Meldrim</strong> <span>All Rights Reserved</span>
         </div>
         <div class="credits">
           <!-- All the links in the footer should remain intact. -->

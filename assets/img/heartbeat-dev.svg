@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glow2" cx="25%" cy="80%" r="95%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glow2)"/>
+  <g fill="none" stroke="#233046" stroke-width="1.5" opacity="0.8">
+    <rect x="90" y="90" width="130" height="56" rx="12"/>
+    <rect x="270" y="90" width="130" height="56" rx="12"/>
+    <rect x="450" y="90" width="130" height="56" rx="12"/>
+    <rect x="630" y="90" width="80" height="56" rx="12"/>
+    <path d="M220 118 h50 M400 118 h50 M580 118 h50"/>
+  </g>
+  <g font-family="Poppins, Arial, sans-serif" font-size="15" fill="#7dd3fc" text-anchor="middle">
+    <text x="155" y="124">plan</text>
+    <text x="335" y="124">code</text>
+    <text x="515" y="124">review</text>
+    <text x="670" y="124">ship</text>
+  </g>
+  <path d="M60 250 h180 l25 -60 35 120 30 -85 20 25 h390" fill="none" stroke="url(#accent2)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="400" y="335" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Heartbeat Dev</text>
+  <text x="400" y="380" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#93c5fd">MULTI-AGENT ENGINEERING PIPELINE</text>
+  <text x="400" y="418" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">plan &#8594; code &#8594; layered review &#8594; CI &#8594; end-to-end test</text>
+</svg>

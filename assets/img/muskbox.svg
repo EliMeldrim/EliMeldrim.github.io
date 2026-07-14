@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glow4" cx="30%" cy="25%" r="95%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="55%" stop-color="#0d1020"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <linearGradient id="accent4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glow4)"/>
+  <g fill="none" stroke="#37415f" stroke-width="2">
+    <circle cx="250" cy="150" r="58"/>
+    <path d="M215 210 a70 46 0 0 1 70 0"/>
+  </g>
+  <path d="M225 148 a8 10 0 0 1 16 0 M260 148 a8 10 0 0 1 16 0" fill="none" stroke="#7c8db5" stroke-width="3" stroke-linecap="round"/>
+  <path d="M235 172 q15 14 30 0" fill="none" stroke="url(#accent4)" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="url(#accent4)" stroke-width="6" stroke-linecap="round">
+    <path d="M380 150 v0.1"/>
+    <path d="M410 135 v30"/>
+    <path d="M440 115 v70"/>
+    <path d="M470 95 v110"/>
+    <path d="M500 120 v60"/>
+    <path d="M530 140 v20"/>
+    <path d="M560 128 v45"/>
+    <path d="M590 145 v10"/>
+  </g>
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="62" font-weight="700" fill="#ffffff">muskbox</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#c4b5fd">REAL-TIME AI AVATAR STREAMING</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Self-hosted talking-head stack &#8212; GPU inference, multi-engine TTS, Docker</text>
+</svg>

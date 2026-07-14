@@ -1,0 +1,126 @@
+/*--------------------------------------------------------------
+# Custom polish overrides — loaded after main.css
+--------------------------------------------------------------*/
+
+:root {
+  --accent-color: #2dd4bf;
+  --nav-hover-color: #2dd4bf;
+  --nav-dropdown-hover-color: #2dd4bf;
+}
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+.hero {
+  background:
+    radial-gradient(1100px 550px at 72% 18%, rgba(45, 212, 191, 0.14), transparent 62%),
+    radial-gradient(900px 520px at 18% 85%, rgba(59, 130, 246, 0.10), transparent 60%),
+    #000000;
+}
+
+.hero h2 {
+  letter-spacing: -1px;
+  background: linear-gradient(120deg, #ffffff 55%, #8df5e6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero .hero-tagline {
+  margin: 22px 0 0;
+  max-width: 640px;
+  font-size: 17px;
+  line-height: 1.65;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+}
+
+.hero .hero-cta {
+  margin-top: 30px;
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.hero .btn-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 28px;
+  border-radius: 50px;
+  font-family: var(--nav-font);
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  transition: 0.3s;
+  border: 1px solid var(--accent-color);
+}
+
+.hero .btn-cta.primary {
+  background: var(--accent-color);
+  color: #00201a;
+}
+
+.hero .btn-cta.primary:hover {
+  background: color-mix(in srgb, var(--accent-color), #ffffff 15%);
+  transform: translateY(-2px);
+}
+
+.hero .btn-cta.ghost {
+  color: var(--accent-color);
+  background: transparent;
+}
+
+.hero .btn-cta.ghost:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 88%);
+  transform: translateY(-2px);
+}
+
+/*--------------------------------------------------------------
+# Chips (tag-style skill lists)
+--------------------------------------------------------------*/
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+}
+
+.chip-list li {
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
+  border: 1px solid color-mix(in srgb, var(--accent-color), transparent 65%);
+  color: color-mix(in srgb, var(--default-color), transparent 8%);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 14px;
+  line-height: 1.4;
+  transition: 0.3s;
+}
+
+.chip-list li:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 78%);
+  border-color: var(--accent-color);
+}
+
+/*--------------------------------------------------------------
+# Cards & sections
+--------------------------------------------------------------*/
+.resume .resume-item h4 {
+  color: var(--accent-color);
+}
+
+.page-title .heading p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.stats .stats-item p {
+  letter-spacing: 0.5px;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer .copyright {
+  padding-top: 20px;
+}

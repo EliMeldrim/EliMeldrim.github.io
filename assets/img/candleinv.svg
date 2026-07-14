@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glow5" cx="30%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="55%" stop-color="#120d0a"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fde68a"/>
+    </linearGradient>
+    <linearGradient id="accent5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glow5)"/>
+  <g>
+    <rect x="150" y="120" width="70" height="100" rx="8" fill="#1f2430" stroke="#3a4356" stroke-width="2"/>
+    <rect x="150" y="120" width="70" height="18" rx="8" fill="#2a3244"/>
+    <path d="M185 100 q10 -18 0 -30 q-14 16 0 30" fill="url(#flame)"/>
+    <rect x="183" y="100" width="4" height="14" fill="#94a3b8"/>
+  </g>
+  <g fill="none" stroke="#3a4356" stroke-width="2">
+    <rect x="330" y="95" width="330" height="34" rx="8"/>
+    <rect x="330" y="141" width="330" height="34" rx="8"/>
+    <rect x="330" y="187" width="330" height="34" rx="8"/>
+  </g>
+  <g font-family="Poppins, Arial, sans-serif" font-size="15" fill="#94a3b8">
+    <text x="345" y="117">Lavender Candle</text>
+    <text x="345" y="163">Soy Wax (kg)</text>
+    <text x="345" y="209">Amber Jars</text>
+  </g>
+  <g font-family="Poppins, Arial, sans-serif" font-size="15" fill="#fbbf24" text-anchor="end">
+    <text x="645" y="117">x 24</text>
+    <text x="645" y="163">x 12.5</text>
+    <text x="645" y="209">x 48</text>
+  </g>
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Inventory Tracker</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#fcd34d">DIY CANDLE BUSINESS INVENTORY</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Items &#183; recipes &#183; batches &#183; sales &#183; expenses &#8212; ASP.NET + MySQL + Docker</text>
+</svg>
