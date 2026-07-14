@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glowFC" cx="25%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#082f49"/>
+      <stop offset="55%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glowFC)"/>
+
+  <!-- Card front -->
+  <g transform="translate(150,80) rotate(-4)">
+    <rect x="0" y="0" width="190" height="130" rx="12" fill="#1f2430" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="95" y="34" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#94a3b8">FRONT</text>
+    <rect x="28" y="54" width="134" height="8" rx="4" fill="#e2e8f0" opacity="0.85"/>
+    <rect x="44" y="72" width="102" height="8" rx="4" fill="#e2e8f0" opacity="0.5"/>
+    <text x="95" y="112" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="14" fill="#38bdf8">?</text>
+  </g>
+
+  <!-- Flip arrows between cards -->
+  <g stroke="#38bdf8" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M368 118 a34 34 0 0 1 48 -6"/>
+    <path d="M416 190 a34 34 0 0 1 -48 6"/>
+  </g>
+  <path d="M414 104 l8 10 l-14 3 z" fill="#38bdf8"/>
+  <path d="M370 202 l-8 -10 l14 -3 z" fill="#38bdf8"/>
+
+  <!-- Card back -->
+  <g transform="translate(452,86) rotate(4)">
+    <rect x="0" y="0" width="190" height="130" rx="12" fill="#38bdf8" opacity="0.12"/>
+    <rect x="0" y="0" width="190" height="130" rx="12" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+    <text x="95" y="34" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#7dd3fc">BACK</text>
+    <rect x="28" y="54" width="134" height="8" rx="4" fill="#bae6fd" opacity="0.9"/>
+    <rect x="28" y="72" width="118" height="8" rx="4" fill="#bae6fd" opacity="0.55"/>
+    <path d="M82 104 l9 10 l18 -20" stroke="#4ade80" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Growing review intervals -->
+  <g font-family="Poppins, Arial, sans-serif" font-size="14" text-anchor="middle">
+    <rect x="240" y="238" width="52" height="26" rx="13" fill="#1f2430" stroke="#3a4356" stroke-width="1.5"/>
+    <text x="266" y="256" fill="#7dd3fc">1 d</text>
+    <path d="M300 251 h44" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M344 251 l-8 -5 v10 z" fill="#38bdf8"/>
+    <rect x="352" y="238" width="52" height="26" rx="13" fill="#1f2430" stroke="#3a4356" stroke-width="1.5"/>
+    <text x="378" y="256" fill="#7dd3fc">6 d</text>
+    <path d="M412 251 h44" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M456 251 l-8 -5 v10 z" fill="#38bdf8"/>
+    <rect x="464" y="238" width="96" height="26" rx="13" fill="#1f2430" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="512" y="256" fill="#38bdf8">interval &#215; ease</text>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff">Recall</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#7dd3fc">STUDY WHAT'S ABOUT TO SLIP</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Spaced-repetition flashcards on a tested SM-2 engine &#8212; React + TypeScript</text>
+</svg>

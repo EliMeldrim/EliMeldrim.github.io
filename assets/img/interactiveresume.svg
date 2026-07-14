@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glowIR" cx="25%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#3f0d20"/>
+      <stop offset="55%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glowIR)"/>
+
+  <!-- Skill chips (left) -->
+  <g font-family="Poppins, Arial, sans-serif" font-size="14" text-anchor="middle">
+    <rect x="130" y="80" width="110" height="30" rx="15" fill="#fb7185" opacity="0.9"/>
+    <text x="185" y="100" fill="#0c1220" font-weight="600">TypeScript</text>
+    <rect x="130" y="126" width="110" height="30" rx="15" fill="#1f2430" stroke="#3a4356" stroke-width="1.5"/>
+    <text x="185" y="146" fill="#94a3b8">React</text>
+    <rect x="130" y="172" width="110" height="30" rx="15" fill="#fb7185" opacity="0.9"/>
+    <text x="185" y="192" fill="#0c1220" font-weight="600">ASP.NET</text>
+    <rect x="130" y="218" width="110" height="30" rx="15" fill="#1f2430" stroke="#3a4356" stroke-width="1.5"/>
+    <text x="185" y="238" fill="#94a3b8">AWS</text>
+  </g>
+
+  <!-- Cross-link lines -->
+  <g stroke="#fb7185" stroke-width="2" fill="none" opacity="0.75">
+    <path d="M240 95 C 330 95, 360 118, 442 118"/>
+    <path d="M240 95 C 340 95, 370 196, 442 196"/>
+    <path d="M240 187 C 330 187, 360 196, 442 196"/>
+  </g>
+  <g stroke="#3a4356" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M240 141 C 330 141, 370 254, 442 254"/>
+    <path d="M240 233 C 320 233, 360 254, 442 254"/>
+  </g>
+
+  <!-- Timeline (right) -->
+  <g>
+    <line x1="452" y1="92" x2="452" y2="268" stroke="#3a4356" stroke-width="2"/>
+    <!-- entry 1: highlighted -->
+    <circle cx="452" cy="118" r="7" fill="#fb7185"/>
+    <rect x="470" y="100" width="196" height="36" rx="8" fill="#1f2430" stroke="#fb7185" stroke-width="2"/>
+    <rect x="482" y="110" width="96" height="7" rx="3.5" fill="#e2e8f0" opacity="0.85"/>
+    <rect x="482" y="122" width="140" height="5" rx="2.5" fill="#94a3b8" opacity="0.5"/>
+    <!-- entry 2: highlighted -->
+    <circle cx="452" cy="196" r="7" fill="#fb7185"/>
+    <rect x="470" y="178" width="196" height="36" rx="8" fill="#1f2430" stroke="#fb7185" stroke-width="2"/>
+    <rect x="482" y="188" width="112" height="7" rx="3.5" fill="#e2e8f0" opacity="0.85"/>
+    <rect x="482" y="200" width="126" height="5" rx="2.5" fill="#94a3b8" opacity="0.5"/>
+    <!-- entry 3: dimmed -->
+    <circle cx="452" cy="254" r="7" fill="#3a4356"/>
+    <rect x="470" y="236" width="196" height="36" rx="8" fill="#1f2430" stroke="#3a4356" stroke-width="2" opacity="0.55"/>
+    <rect x="482" y="246" width="88" height="7" rx="3.5" fill="#94a3b8" opacity="0.5"/>
+    <rect x="482" y="258" width="132" height="5" rx="2.5" fill="#94a3b8" opacity="0.35"/>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="48" font-weight="700" fill="#ffffff">Interactive Resume</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#fda4af">EVERY SKILL HAS RECEIPTS</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Skills cross-linked to the roles &amp; projects that used them &#8212; React + TypeScript</text>
+</svg>

@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glowHT" cx="25%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#052e16"/>
+      <stop offset="55%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glowHT)"/>
+
+  <!-- Heatmap card -->
+  <g>
+    <rect x="120" y="70" width="380" height="190" rx="12" fill="#1f2430" stroke="#3a4356" stroke-width="2"/>
+    <!-- Month labels -->
+    <g font-family="Poppins, Arial, sans-serif" font-size="12" fill="#94a3b8">
+      <text x="150" y="98">Jan</text>
+      <text x="242" y="98">Mar</text>
+      <text x="334" y="98">May</text>
+      <text x="426" y="98">Jul</text>
+    </g>
+    <!-- Heatmap cells: 14 cols x 5 rows -->
+    <g fill="#4ade80">
+      <rect x="146" y="110" width="18" height="18" rx="4" opacity="0.15"/>
+      <rect x="170" y="110" width="18" height="18" rx="4" opacity="0.55"/>
+      <rect x="194" y="110" width="18" height="18" rx="4" opacity="0.85"/>
+      <rect x="218" y="110" width="18" height="18" rx="4" opacity="0.35"/>
+      <rect x="242" y="110" width="18" height="18" rx="4" opacity="0.15"/>
+      <rect x="266" y="110" width="18" height="18" rx="4" opacity="0.7"/>
+      <rect x="290" y="110" width="18" height="18" rx="4" opacity="0.95"/>
+      <rect x="314" y="110" width="18" height="18" rx="4" opacity="0.5"/>
+      <rect x="338" y="110" width="18" height="18" rx="4" opacity="0.2"/>
+      <rect x="362" y="110" width="18" height="18" rx="4" opacity="0.85"/>
+      <rect x="386" y="110" width="18" height="18" rx="4" opacity="0.6"/>
+      <rect x="410" y="110" width="18" height="18" rx="4" opacity="0.3"/>
+      <rect x="434" y="110" width="18" height="18" rx="4" opacity="0.9"/>
+      <rect x="458" y="110" width="18" height="18" rx="4" opacity="0.45"/>
+
+      <rect x="146" y="134" width="18" height="18" rx="4" opacity="0.6"/>
+      <rect x="170" y="134" width="18" height="18" rx="4" opacity="0.9"/>
+      <rect x="194" y="134" width="18" height="18" rx="4" opacity="0.25"/>
+      <rect x="218" y="134" width="18" height="18" rx="4" opacity="0.7"/>
+      <rect x="242" y="134" width="18" height="18" rx="4" opacity="0.95"/>
+      <rect x="266" y="134" width="18" height="18" rx="4" opacity="0.4"/>
+      <rect x="290" y="134" width="18" height="18" rx="4" opacity="0.15"/>
+      <rect x="314" y="134" width="18" height="18" rx="4" opacity="0.8"/>
+      <rect x="338" y="134" width="18" height="18" rx="4" opacity="0.55"/>
+      <rect x="362" y="134" width="18" height="18" rx="4" opacity="0.3"/>
+      <rect x="386" y="134" width="18" height="18" rx="4" opacity="0.9"/>
+      <rect x="410" y="134" width="18" height="18" rx="4" opacity="0.65"/>
+      <rect x="434" y="134" width="18" height="18" rx="4" opacity="0.2"/>
+      <rect x="458" y="134" width="18" height="18" rx="4" opacity="0.75"/>
+
+      <rect x="146" y="158" width="18" height="18" rx="4" opacity="0.85"/>
+      <rect x="170" y="158" width="18" height="18" rx="4" opacity="0.35"/>
+      <rect x="194" y="158" width="18" height="18" rx="4" opacity="0.6"/>
+      <rect x="218" y="158" width="18" height="18" rx="4" opacity="0.15"/>
+      <rect x="242" y="158" width="18" height="18" rx="4" opacity="0.5"/>
+      <rect x="266" y="158" width="18" height="18" rx="4" opacity="0.9"/>
+      <rect x="290" y="158" width="18" height="18" rx="4" opacity="0.7"/>
+      <rect x="314" y="158" width="18" height="18" rx="4" opacity="0.25"/>
+      <rect x="338" y="158" width="18" height="18" rx="4" opacity="0.95"/>
+      <rect x="362" y="158" width="18" height="18" rx="4" opacity="0.45"/>
+      <rect x="386" y="158" width="18" height="18" rx="4" opacity="0.2"/>
+      <rect x="410" y="158" width="18" height="18" rx="4" opacity="0.8"/>
+      <rect x="434" y="158" width="18" height="18" rx="4" opacity="0.55"/>
+      <rect x="458" y="158" width="18" height="18" rx="4" opacity="0.9"/>
+
+      <rect x="146" y="182" width="18" height="18" rx="4" opacity="0.3"/>
+      <rect x="170" y="182" width="18" height="18" rx="4" opacity="0.75"/>
+      <rect x="194" y="182" width="18" height="18" rx="4" opacity="0.95"/>
+      <rect x="218" y="182" width="18" height="18" rx="4" opacity="0.5"/>
+      <rect x="242" y="182" width="18" height="18" rx="4" opacity="0.2"/>
+      <rect x="266" y="182" width="18" height="18" rx="4" opacity="0.6"/>
+      <rect x="290" y="182" width="18" height="18" rx="4" opacity="0.4"/>
+      <rect x="314" y="182" width="18" height="18" rx="4" opacity="0.9"/>
+      <rect x="338" y="182" width="18" height="18" rx="4" opacity="0.65"/>
+      <rect x="362" y="182" width="18" height="18" rx="4" opacity="0.15"/>
+      <rect x="386" y="182" width="18" height="18" rx="4" opacity="0.8"/>
+      <rect x="410" y="182" width="18" height="18" rx="4" opacity="0.35"/>
+      <rect x="434" y="182" width="18" height="18" rx="4" opacity="0.7"/>
+      <rect x="458" y="182" width="18" height="18" rx="4" opacity="0.25"/>
+
+      <rect x="146" y="206" width="18" height="18" rx="4" opacity="0.5"/>
+      <rect x="170" y="206" width="18" height="18" rx="4" opacity="0.2"/>
+      <rect x="194" y="206" width="18" height="18" rx="4" opacity="0.7"/>
+      <rect x="218" y="206" width="18" height="18" rx="4" opacity="0.9"/>
+      <rect x="242" y="206" width="18" height="18" rx="4" opacity="0.35"/>
+      <rect x="266" y="206" width="18" height="18" rx="4" opacity="0.15"/>
+      <rect x="290" y="206" width="18" height="18" rx="4" opacity="0.85"/>
+      <rect x="314" y="206" width="18" height="18" rx="4" opacity="0.6"/>
+      <rect x="338" y="206" width="18" height="18" rx="4" opacity="0.4"/>
+      <rect x="362" y="206" width="18" height="18" rx="4" opacity="0.75"/>
+      <rect x="386" y="206" width="18" height="18" rx="4" opacity="0.25"/>
+      <rect x="410" y="206" width="18" height="18" rx="4" opacity="0.95"/>
+      <rect x="434" y="206" width="18" height="18" rx="4" opacity="0.45"/>
+      <rect x="458" y="206" width="18" height="18" rx="4" opacity="0.85"/>
+    </g>
+  </g>
+
+  <!-- Streak flame badge -->
+  <g transform="translate(570,90)">
+    <circle cx="60" cy="70" r="62" fill="#1f2430" stroke="#3a4356" stroke-width="2"/>
+    <path d="M60 26 q14 20 4 34 q16 -4 22 12 q10 26 -12 40 q-24 15 -42 -4 q-16 -18 -4 -40 q8 -15 14 -24 q6 -9 18 -18z" fill="#fb923c" opacity="0.9"/>
+    <path d="M58 62 q8 12 2 20 q12 -2 14 10 q2 14 -12 20 q-16 6 -24 -6 q-7 -12 2 -24 q7 -10 18 -20z" fill="#fde68a"/>
+    <text x="60" y="160" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="17" font-weight="600" fill="#4ade80">21-day streak</text>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="46" font-weight="700" fill="#ffffff">Habit Streak Tracker</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#86efac">DON'T BREAK THE CHAIN</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">GitHub-style heatmaps, streaks &amp; trend charts &#8212; React + TypeScript</text>
+</svg>

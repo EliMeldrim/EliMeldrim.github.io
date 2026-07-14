@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glowOC" cx="25%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#083344"/>
+      <stop offset="55%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glowOC)"/>
+
+  <!-- Month calendar -->
+  <g>
+    <rect x="150" y="64" width="392" height="200" rx="12" fill="#1f2430" stroke="#3a4356" stroke-width="2"/>
+    <g font-family="Poppins, Arial, sans-serif" font-size="12" fill="#94a3b8" text-anchor="middle">
+      <text x="178" y="90">Mon</text>
+      <text x="234" y="90">Tue</text>
+      <text x="290" y="90">Wed</text>
+      <text x="346" y="90">Thu</text>
+      <text x="402" y="90">Fri</text>
+      <text x="458" y="90">Sat</text>
+      <text x="514" y="90">Sun</text>
+    </g>
+    <g stroke="#2b3145" stroke-width="1.5">
+      <line x1="150" y1="100" x2="542" y2="100"/>
+      <line x1="150" y1="154" x2="542" y2="154"/>
+      <line x1="150" y1="208" x2="542" y2="208"/>
+      <line x1="206" y1="100" x2="206" y2="264"/>
+      <line x1="262" y1="100" x2="262" y2="264"/>
+      <line x1="318" y1="100" x2="318" y2="264"/>
+      <line x1="374" y1="100" x2="374" y2="264"/>
+      <line x1="430" y1="100" x2="430" y2="264"/>
+      <line x1="486" y1="100" x2="486" y2="264"/>
+    </g>
+    <!-- weekend shading -->
+    <rect x="430" y="100" width="112" height="164" fill="#22d3ee" opacity="0.05"/>
+    <!-- assignee chips: cyan, amber, green rotation -->
+    <g rx="4">
+      <rect x="158" y="128" width="40" height="16" rx="8" fill="#22d3ee" opacity="0.9"/>
+      <rect x="214" y="128" width="40" height="16" rx="8" fill="#22d3ee" opacity="0.9"/>
+      <rect x="270" y="128" width="40" height="16" rx="8" fill="#fbbf24" opacity="0.9"/>
+      <rect x="326" y="128" width="40" height="16" rx="8" fill="#fbbf24" opacity="0.9"/>
+      <rect x="382" y="128" width="40" height="16" rx="8" fill="#4ade80" opacity="0.9"/>
+      <rect x="438" y="128" width="40" height="16" rx="8" fill="#4ade80" opacity="0.9"/>
+      <rect x="494" y="128" width="40" height="16" rx="8" fill="#22d3ee" opacity="0.9"/>
+
+      <rect x="158" y="182" width="40" height="16" rx="8" fill="#fbbf24" opacity="0.9"/>
+      <rect x="214" y="182" width="40" height="16" rx="8" fill="#4ade80" opacity="0.9"/>
+      <rect x="270" y="182" width="40" height="16" rx="8" fill="#22d3ee" opacity="0.9"/>
+      <rect x="326" y="182" width="40" height="16" rx="8" fill="#22d3ee" opacity="0.9"/>
+      <rect x="382" y="182" width="40" height="16" rx="8" fill="#fbbf24" opacity="0.9"/>
+      <rect x="494" y="182" width="40" height="16" rx="8" fill="#4ade80" opacity="0.9"/>
+
+      <rect x="158" y="236" width="40" height="16" rx="8" fill="#4ade80" opacity="0.9"/>
+      <rect x="214" y="236" width="40" height="16" rx="8" fill="#22d3ee" opacity="0.9"/>
+      <rect x="270" y="236" width="40" height="16" rx="8" fill="#fbbf24" opacity="0.9"/>
+      <rect x="326" y="236" width="40" height="16" rx="8" fill="#4ade80" opacity="0.9"/>
+      <rect x="382" y="236" width="40" height="16" rx="8" fill="#22d3ee" opacity="0.9"/>
+      <rect x="438" y="236" width="40" height="16" rx="8" fill="#fbbf24" opacity="0.9"/>
+      <rect x="494" y="236" width="40" height="16" rx="8" fill="#fbbf24" opacity="0.9"/>
+    </g>
+    <!-- conflict day: unassigned, flagged -->
+    <g>
+      <rect x="438" y="182" width="40" height="16" rx="8" fill="none" stroke="#f87171" stroke-width="2" stroke-dasharray="4 3"/>
+      <text x="458" y="177" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="13" font-weight="700" fill="#f87171">!</text>
+    </g>
+  </g>
+
+  <!-- Fairness bars -->
+  <g transform="translate(586,84)">
+    <rect x="0" y="0" width="96" height="180" rx="10" fill="#1f2430" stroke="#3a4356" stroke-width="2"/>
+    <text x="48" y="24" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="11" letter-spacing="1" fill="#94a3b8">FAIRNESS</text>
+    <rect x="16" y="120" width="14" height="42" rx="3" fill="#22d3ee"/>
+    <rect x="41" y="112" width="14" height="50" rx="3" fill="#fbbf24"/>
+    <rect x="66" y="126" width="14" height="36" rx="3" fill="#4ade80"/>
+    <line x1="12" y1="118" x2="84" y2="118" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.6"/>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="42" font-weight="700" fill="#ffffff">On-Call Shift Scheduler</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#67e8f9">FAIR BY CONSTRUCTION</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Constraint-based rotation with conflict detection &#8212; ASP.NET Core &amp; React</text>
+</svg>

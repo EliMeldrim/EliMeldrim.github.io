@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <radialGradient id="glowQG" cx="25%" cy="30%" r="95%">
+      <stop offset="0%" stop-color="#38063d"/>
+      <stop offset="55%" stop-color="#0c1220"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#glowQG)"/>
+
+  <!-- Notes document -->
+  <g>
+    <rect x="140" y="72" width="180" height="190" rx="10" fill="#1f2430" stroke="#3a4356" stroke-width="2"/>
+    <text x="158" y="102" font-family="Poppins, Arial, sans-serif" font-size="13" letter-spacing="1" fill="#94a3b8">NOTES</text>
+    <g fill="#e2e8f0">
+      <rect x="158" y="118" width="140" height="7" rx="3.5" opacity="0.7"/>
+      <rect x="158" y="134" width="120" height="7" rx="3.5" opacity="0.5"/>
+      <rect x="158" y="150" width="132" height="7" rx="3.5" opacity="0.6"/>
+      <rect x="158" y="166" width="104" height="7" rx="3.5" opacity="0.45"/>
+      <rect x="158" y="182" width="138" height="7" rx="3.5" opacity="0.6"/>
+      <rect x="158" y="198" width="112" height="7" rx="3.5" opacity="0.5"/>
+      <rect x="158" y="214" width="126" height="7" rx="3.5" opacity="0.55"/>
+      <rect x="158" y="230" width="90" height="7" rx="3.5" opacity="0.4"/>
+    </g>
+    <!-- highlighted key term -->
+    <rect x="158" y="150" width="60" height="7" rx="3.5" fill="#e879f9" opacity="0.9"/>
+  </g>
+
+  <!-- Sparkle transform -->
+  <g transform="translate(368,140)">
+    <path d="M32 0 l7 22 l22 7 l-22 7 l-7 22 l-7 -22 l-22 -7 l22 -7 z" fill="#e879f9"/>
+    <path d="M62 40 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 l12 -4 z" fill="#f0abfc" opacity="0.85"/>
+    <path d="M10 52 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3 z" fill="#f0abfc" opacity="0.6"/>
+  </g>
+
+  <!-- Generated question options -->
+  <g font-family="Poppins, Arial, sans-serif" font-size="14">
+    <rect x="470" y="76" width="196" height="10" rx="5" fill="#e2e8f0" opacity="0.75"/>
+    <rect x="470" y="94" width="150" height="10" rx="5" fill="#e2e8f0" opacity="0.45"/>
+
+    <rect x="470" y="120" width="196" height="30" rx="8" fill="#1f2430" stroke="#3a4356" stroke-width="1.5"/>
+    <circle cx="488" cy="135" r="8" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <text x="484" y="140" fill="#94a3b8" font-size="11">A</text>
+    <rect x="506" y="131" width="110" height="8" rx="4" fill="#94a3b8" opacity="0.5"/>
+
+    <rect x="470" y="158" width="196" height="30" rx="8" fill="#e879f9" opacity="0.14"/>
+    <rect x="470" y="158" width="196" height="30" rx="8" fill="none" stroke="#e879f9" stroke-width="2"/>
+    <circle cx="488" cy="173" r="8" fill="#e879f9"/>
+    <text x="484" y="178" fill="#0c1220" font-size="11" font-weight="700">B</text>
+    <rect x="506" y="169" width="128" height="8" rx="4" fill="#f0abfc" opacity="0.9"/>
+    <path d="M644 168 l5 6 l10 -12" stroke="#4ade80" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="470" y="196" width="196" height="30" rx="8" fill="#1f2430" stroke="#3a4356" stroke-width="1.5"/>
+    <circle cx="488" cy="211" r="8" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <text x="484" y="216" fill="#94a3b8" font-size="11">C</text>
+    <rect x="506" y="207" width="96" height="8" rx="4" fill="#94a3b8" opacity="0.5"/>
+
+    <rect x="470" y="234" width="196" height="30" rx="8" fill="#1f2430" stroke="#3a4356" stroke-width="1.5"/>
+    <circle cx="488" cy="249" r="8" fill="none" stroke="#94a3b8" stroke-width="2"/>
+    <text x="484" y="254" fill="#94a3b8" font-size="11">D</text>
+    <rect x="506" y="245" width="118" height="8" rx="4" fill="#94a3b8" opacity="0.5"/>
+  </g>
+
+  <text x="400" y="330" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="54" font-weight="700" fill="#ffffff">Quiz Generator</text>
+  <text x="400" y="375" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="22" letter-spacing="3" fill="#f0abfc">NOTES IN, QUESTIONS OUT</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="16" fill="#94a3b8">Claude-powered quizzes with an offline fallback engine &#8212; FastAPI &amp; Python</text>
+</svg>
